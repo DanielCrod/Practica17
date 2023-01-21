@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/datos"
+        android:text="DATOS"
+        android:layout_marginTop="30dp"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:layout_marginRight="10dp"
+        android:id="@+id/fotos"
+        android:text="FOTO"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></Button>
+    <FrameLayout
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="650dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>
